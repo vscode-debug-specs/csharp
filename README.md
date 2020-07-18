@@ -1,8 +1,3 @@
----
-title: How to Debug C# (.Net Core) with VSCode
-permalink: /
----
-
 # How to Debug C# (.Net Core) with VSCode
 
 ## Summary
@@ -26,10 +21,12 @@ permalink: /
 ## Spec
 
 - OS
+
   - ✅ MacOS
   - ✅ Windows
 
   - ✅ Linux
+
 - Break Point
   _ ✅ break point
   _ ✅ condition break point \* ❌ function breakpoint
@@ -48,8 +45,8 @@ permalink: /
 - Type of Execution
   _ ✅ debug unit test
   _ ✅ debug executable package
-     * ✅ remote debugging
-  * ✅ ASP.NET Core
+     \* ✅ remote debugging
+  - ✅ ASP.NET Core
 
 ## install
 
