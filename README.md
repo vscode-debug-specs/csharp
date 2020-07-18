@@ -1,4 +1,4 @@
-# How to Debug C# (.Net Core) with VSCode
+# How to Debug C# (.Net Core) with VS Code
 
 ## Summary
 
@@ -75,7 +75,7 @@
 
 ### way need to open project dir
 
-1. change VSCode dir to the project dir.
+1. change VS Code dir to the project dir.
 2. open C# code in the project.
 3. click Yes to message "Required assets to build and debug are missing from ...
 
@@ -227,7 +227,7 @@ add settings to launch.json.
       "processId": "${command:pickRemoteProcess}",
       "sourceFileMap": {
         // create a map between remote and local directory
-        // "remote host directory" : "VSCode(local) directory"
+        // "remote host directory" : "VS Code(local) directory"
         "/home/nnyn/vscode-debug-specs/csharp": "/Users/nnyn/Documents/vscode-debug-specs/csharp"
       },
       "pipeTransport": {
